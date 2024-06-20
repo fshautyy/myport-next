@@ -1,0 +1,12 @@
+{
+    "title": "Building <span class=\"mil-thin\">Innovative Solutions<br> for a</span> Better <span class=\"mil-thin\">Digital Tomorrow</span>",
+    "description": "Crafting innovative, high-performance Flutter apps to enhance user experiences and drive digital transformation for a better tomorrow.",
+    "button1": {
+        "link": "/services",
+        "label": "What i do"
+    },
+    "button2": {
+        "link": "/projects",
+        "label": "My works"
+    }
+}
