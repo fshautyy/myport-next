@@ -1,14 +1,14 @@
 {
-  "name": "ashley-nextjs",
+  "name": "yddha-nextjs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "predeploy": "npm run export",
+    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
   "homepage": "https://fshautyy.github.io/devapp",

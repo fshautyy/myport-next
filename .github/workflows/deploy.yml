@@ -1,4 +1,4 @@
-name: Deploy Next.js App to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
@@ -25,6 +25,9 @@ jobs:
         run: npm install
 
       - name: Build the app
+        run: npm run build
+
+      - name: Export the app
         run: npm run export
 
       - name: Deploy to GitHub Pages
