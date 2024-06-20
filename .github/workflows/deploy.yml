@@ -25,9 +25,6 @@ jobs:
         run: npm install
 
       - name: Build the app
-        run: next build
-
-      - name: Export the app
         run: npm run build
 
       - name: Deploy to GitHub Pages
