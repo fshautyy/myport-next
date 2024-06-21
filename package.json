@@ -7,11 +7,8 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
-  "homepage": "https://fshautyy.github.io/devapp",
   "dependencies": {
     "@tsparticles/preset-stars": "^3.1.0",
     "@tsparticles/react": "^3.0.0",
