@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   basePath: '/devapp',
   assetPrefix: '/devapp/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig
