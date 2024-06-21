@@ -939,6 +939,14 @@ dodecahedron
     pointer-events: none;
 }
 
+.mil-noOpacity {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    pointer-events: none;
+}
+
 .mil-position-1 {
     top: 100px;
     right: 100px;

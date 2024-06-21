@@ -27,7 +27,7 @@ const AboutSection = () => {
 
                             <div className="mil-about-photo mil-mb-90">
                                 <div className="mil-lines-place">
-                                    <LinesIcon />
+                                    {/* <LinesIcon /> */}
                                 </div>
                                 <div className="mil-up mil-img-frame" style={{"paddingBottom": "160%"}}>
                                     <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" />
